@@ -1,0 +1,14 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top ;
+  }
+
+ .nav {
+    width: 73%;
+    padding: 1%;
+
+  }
+  #ul {
+    width: 50%;
+    margin-left: auto;
+  }
