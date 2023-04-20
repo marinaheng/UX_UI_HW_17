@@ -1,11 +1,11 @@
 .inline-block {
     display: inline-block;
     vertical-align: top ;
-    font-family: vidaloka;
+    font-family: rufina;
   }
 
   .navigation {
-    background-color: #638393;
+    background-color: #e5989b;
     color: #fff;
     width: 100%;
     display: flex;
@@ -34,6 +34,7 @@
   .content{
     width: 500px;
     margin: 0 auto;
+    font-family: rufina;
     
   }
 
@@ -55,14 +56,51 @@
   }
 
   button {
-    background-color: #638393;
+    background-color: #6d6875;
     border-radius: 4px;
     color: white;
     padding: 10px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-family: vidaloka;
+    font-family: rufina;
     font-size: 13px;
 
   }
+  
+
+  .flexItem {
+    background-color: whitesmoke;
+    font-family: rufina;
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+
+    flex: 1 0 25%;
+    max-width: 300px;
+    margin: 10px;
+  }
+  .flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    background-color: #e5989b;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  
+
+  .justifyContent {
+    justify-content: center;
+  }
+  .perfectlyCentered {
+    justify-content: center;
+    align-items: center;
+  }
+  .alignItems {
+    align-items: center;
+  }
+
+  
